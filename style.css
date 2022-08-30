@@ -1,0 +1,24 @@
+
+
+/*The way CSS works, is it will select all the things on the page with the same name, so you don't
+have to change them individually.*/
+
+body {
+    background-color: deepskyblue;
+    mso-bidi-font-family: fantasy;
+    color: #444444;
+}
+
+/*This will change anything with h1 to have these attributes, only for h1 elements:*/
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+/*    This will round the corners of the picture, and only for the img*/
+img{
+    border-radius: 15px;
+}
+
+
+
